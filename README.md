@@ -1,16 +1,13 @@
 # tsw_custom_transition_route
 
-A new Flutter project.
+Proyecto de Flutter que realiza transiciones entre pantallas con una clase personalizada llamada: RouteTransitions
 
-## Getting Started
+## Breve Descripcion
 
-This project is a starting point for a Flutter application.
+El proyecto contiene 3 Pantallas que permite navegar de la pantalla #1 a la 2, y de la 2 a la 3, entre cada pantalla permite visualizar una transicion diferente.
 
-A few resources to get you started if this is your first Flutter project:
+Tomar en cuenta que en la clase puede hacer el pushrepushReplacement o buen sobre poner pantallas una sobre la otra cambiando la instruccion en la linea 97 de la clase RouteTransitions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Animate a page route transition](https://docs.flutter.dev/cookbook/animation/page-route-animation)
+- [Flutter animate a page route transition - Interactive example](https://www.youtube.com/watch?v=Os_T7RhJWEQ)
